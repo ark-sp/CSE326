@@ -1,0 +1,109 @@
+<form>
+<head>
+	<title>organize</title>
+</head>
+<form action ="/server_name.php">
+
+<body bgcolor="powderblue">
+ <style type="text/css">
+         body
+         {
+         	background-image: url(Image9.jpg);
+         	background-repeat: no-repeat;
+         	background-size: cover;
+         }
+		 .cb
+		 {
+		 	color: orange;
+		 	font-size: 35px;
+		 	text-align: left;
+		 	background-color: #111;
+		 	width: 380px;
+		 	height: 800px;
+		 	opacity: 0.8;
+		 	position: relative;
+		 	top: 200px;
+		 	left: 800px;
+		 	padding: 10px;
+
+		 }
+         #sb
+         {
+         	font-size: 40px;
+         }
+         h2
+         {
+         	color: red;
+         }
+		 #sb:hover{background-color: yellow;color: orange}
+		 .inp{
+		 	width:180px;height:38px;
+		 }
+		 .edit{
+		 	font-size: 29px;
+		 }
+		 .box
+{ 
+width: 700px;
+float:left;
+font-weight: bold;
+border:5px solid none;
+background-color: #111;
+opacity: 0.7;
+width:100%;
+
+}
+
+.box ul li{
+  display: inline-block;
+  font-size: 20px;
+	word-spacing: 100px;
+	text-align: center;
+  margin: 0px 50px;
+
+}
+.box ul li a.active{
+  background-color: #555;
+  width: 80px;
+}
+
+.box ul li a{ text-decoration: none;
+color: yellow;
+display:block;
+padding:8px 16px;
+ }
+
+ .box ul li:hover { background-color: orange; color: white; }
+
+		 </style>
+<div class="box">
+<ul type =  "none   ">
+<li><a  href="Home.html"> Home</a></li>
+<li><a href="event.html"> Event</a></li>
+<li><a class="active" href="organize.html"> Organize</a></li>
+<li><a href="index.html"> AboutUs</a></li>
+<li><a href="feedback.html"> FeedBack</a></li>
+<li><a href="Login.html">Login</a></li>
+<li><a href="SignUp.html">SignUp</a></li>
+</ul>
+</div>
+<div class="cb">
+	<h2> Organize </h2>
+<form>
+<input type="checkbox" name="features"="wifi"checked>wifi<br>
+<input type="checkbox" name="features"="mike"checked>mike<br>
+<input type="checkbox" name="features"="chairs"checked>chairs<br>
+<input type="checkbox" name="features"="lighting"checked>lighting<br>
+<input type="checkbox" name="features"="projector"checked>projector<br>
+<input type="checkbox" name="features"="tables"checked>tables<br>
+<input type="checkbox" name="features"="computers"checked>computers<br>
+<input type="checkbox" name="features"="speakers"checked>speakers<br>
+<span class="edit">Date</span>
+<input class="inp" type="Date" placeholder="dd/mm/yyyy"><br>
+<span class="edit">Starting Time</span>
+<input class="inp" type="Time" name="Starting Time"><br>
+<span class="edit">Ending Time</span>
+<input class="inp" type="Time" name="Ending Time"><br><br>
+<input id="sb" type="button" value="Submit" onclick="window.location.href='LastPage.html';"></div>
+</form>
+<style>

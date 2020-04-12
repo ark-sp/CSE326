@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Feedback</title>
+	<style>
+		body
+		{
+			background-image: url(Image8.jpg);
+			background-size: cover;
+			background-repeat: no-repeat;
+		}
+        h2{
+        	color:red;
+        	position: relative;
+        	top: 150px;
+        	text-align: center;
+        	background-color: #111;
+        	opacity: 0.8;
+        	        }
+        .fb
+        {
+        	background-color: #111;
+            opacity: 0.8;
+            width: 300px;
+            font-size: 30px;
+            position: relative;
+            left: 800px;
+            top: 250px;
+            color: orange;
+
+        }
+        #fk
+        {
+        	height: 200px;width: 300px;
+        }
+        #bt
+        {
+        	position: relative;
+        	left: 120px;
+        }
+        .box
+{ 
+width: 700px;
+float:left;
+font-weight: bold;
+border:5px solid none;
+background-color: #111;
+opacity: 0.7;
+width:100%;
+z-index: 1;
+
+}
+
+.box ul li{
+  display: inline-block;
+  font-size: 20px;
+	word-spacing: 100px;
+	text-align: center;
+  margin: 0px 50px;
+
+}
+.box ul li a.active{
+  background-color: #555;
+  width: 80px;
+}
+
+.box ul li a{ text-decoration: none;
+color: yellow;
+display:block;
+padding:8px 16px;
+ }
+
+ .box ul li:hover { background-color: orange; color: white; }
+
+        #bt:hover{background-color: lime;color: red}
+	</style>
+</head>
+<body>
+	<div class="box">
+<ul type =  "none   ">
+<li><a  href="Home.html"> Home</a></li>
+<li><a href="event.html"> Event</a></li>
+<li><a href="organize.html"> Organize</a></li>
+<li><a href="index.html"> AboutUs</a></li>
+<li><a class="active" href="feedback.html"> FeedBack</a></li>
+<li><a href="Login.html">Login</a></li>
+<li><a href="SignUp.html">SignUp</a></li>
+</ul></div>
+	<h2>Please give us your Feedback as of your experience<br>It will help us improve :)</h2>
+	<form class="fb">
+		Email
+		<input type="Email" name="Email"><br>
+		Feedback
+		<input id="fk" type="Feedback" placeholder="(At least 80 words)" name="Feedback">
+        <input id="bt" type="button" value="Submit" onclick="window.location.href='Home.html';">
+	</form>
+</body>
+</html>

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>BookHall-Sign UP</title>
+	<style>
+		body
+		{
+             background-image: url(Image8.jpg);
+             background-size: cover;
+             background-repeat: no-repeat;
+             background-position: center;
+             background-color: gray;
+		}
+		.ac
+		{
+             height:600px;
+             width: 400px;
+             background-color: #111;
+             opacity: 0.8;
+             font-size: 23px;
+             text-align: center;
+             padding: 50px;
+             position: relative;
+             left: 700px;
+             top: 200px;
+             border-radius: 10px;
+             color: orange;
+             line-height: 40px;
+	    }
+	    .ip
+	    {
+	    	float: right;
+	    	line-height: 20px;
+	    }
+		#su
+		{
+            text-align: center;
+            background-color: gray;
+            font-size: 20px;
+		}
+		#su:hover{background-color: white;color: orange}
+	</style>
+</head>
+<body>
+<div class="ac">
+	<h2>BookHall SignUp</h2>
+	<form>
+		First Name
+		<input class="ip" type="text" name="First Name"><br>
+		Last Name       
+		<input class="ip" type="text" name="Last Name"><br>
+		Email 
+		<input class="ip" type="Email" name="Email"><br>
+		Password
+		<input class="ip" type="Password" name="Password"><br>
+		Confirm Password
+		<input class="ip" type="Password" name="Password"><br>
+		<hr><br>
+		Address         
+		<input class="ip" type="text" name="Address"><br>
+		State           
+		<input class="ip" type="text" name="State"><br>
+		Country         
+		<input class="ip" type="text" name="Country"><br>
+		Date of Birth   
+		<input class="ip" placeholder="dd/mm/yyyy" type="text" name="Date of Birth"><br>
+		Gender:
+		Male <input type="radio" name="gender">
+		Female<input type="radio" name="gender">
+		Others<input type="radio" name="gender"><br>
+		<input id="su" type="button" onclick="window.location.href='Home.html';" value="Sign Up">
+
+	</form>
+</div>
+</body>
+</html>

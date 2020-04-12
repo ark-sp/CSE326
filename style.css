@@ -1,0 +1,78 @@
+*{	
+margin: 0;
+padding: 0;
+background: #34495e;
+font-family: sans-serif;
+}
+.team-section{
+overflow: hidden;
+text-align: center;
+
+padding: 60px;
+}
+team-section h1{
+.text-transform :uppercase;
+margin-bottom: 60px;
+color: white;
+font-size: 40px;
+}
+.border{
+display: block;
+margin: auto;
+width: 160px;
+height: 3px;
+
+margin-bottom: 40px;
+}
+.ps {
+ margin-bottom: 40px;
+}
+.ps a{
+display: inline-block;
+margin: 0 30px;
+width: 160px;
+height: 160px;
+overflow: hidden;
+border-radius: 50%;
+}
+.ps a img{
+width:100%;
+filter: grayscale(100%);
+transition: 0.4s all;
+}
+.ps a:hover  > img{
+filter: none;
+}
+
+.box
+{ 
+width: 700px;
+float:left;
+font-weight: bold;
+border:5px solid none;
+background-color: #111;
+opacity: 0.7;
+width:100%;
+
+}
+
+.box ul li{
+  display: inline-block;
+  font-size: 20px;
+	word-spacing: 100px;
+	text-align: center;
+  margin: 0px 50px;
+
+}
+.box ul li a.active{
+  background-color: #555;
+  width: 80px;
+}
+
+.box ul li a{ text-decoration: none;
+color: yellow;
+display:block;
+padding:8px 16px;
+ }
+
+ .box ul li:hover { background-color: orange; color: white; }
